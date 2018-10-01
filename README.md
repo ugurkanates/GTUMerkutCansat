@@ -1,6 +1,6 @@
 # GTUMerkutCansat
 Gebze Technical University Kocaeli / Turkey Ground Station Software used for CanSat 18' && Turksat Model Uydu #4 2018 Teknofest
-
+![alt text](https://raw.githubusercontent.com/ugurkanates/GTUMerkutCansat/master/gcstest.png)
 This software consist two parts.
 
 1- Electronical System Software  aka Flight Software.
@@ -20,3 +20,7 @@ Serial Port class imported. works perfectly.
 Used WebcamView by sarxos to implement FPV livefeed data.
 
 Written by Ugurkan Ates
+
+
+
+![alt text](https://raw.githubusercontent.com/ugurkanates/GTUMerkutCansat/master/web.telegram.org%20%23%2034016dbe-9c37-4225-a701-e67e3cc43d3c%20.jpg)

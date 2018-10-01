@@ -1,0 +1,20 @@
+language: java
+jdk:
+#  - openjdk6
+#  - oraclejdk7
+#  - openjdk7
+  - openjdk8
+
+before_install:
+  - mvn install -DskipTests=true -e -B
+
+script:
+  - mvn test -B
+
+after_success:
+  - mvn cobertura:cobertura coveralls:report -B -P ci
+
+branches:
+  except:
+    - gh-pages
+

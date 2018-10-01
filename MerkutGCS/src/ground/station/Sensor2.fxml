@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<fx:root maxHeight="1.7976931348623157E308" spacing="20.0" type="VBox" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <HBox maxHeight="1.7976931348623157E308" prefHeight="280.0" prefWidth="692.0" VBox.vgrow="ALWAYS">
+            <children>
+                <LineChart fx:id="chart" animated="false" axisSortingPolicy="NONE" createSymbols="false" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="221.0" prefWidth="499.0" HBox.hgrow="ALWAYS">
+                    <xAxis>
+                        <NumberAxis fx:id="time" animated="false" autoRanging="false" forceZeroInRange="false" prefWidth="460.0" side="BOTTOM" />
+                    </xAxis>
+                    <yAxis>
+                        <NumberAxis fx:id="magnitude" side="LEFT" />
+                    </yAxis>
+                </LineChart>
+                <LineChart fx:id="charte" animated="false" axisSortingPolicy="NONE" createSymbols="false" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="283.0" prefWidth="482.0" HBox.hgrow="ALWAYS">
+                    <xAxis>
+                        <NumberAxis fx:id="timer" animated="false" autoRanging="false" forceZeroInRange="false" side="BOTTOM" />
+                    </xAxis>
+                    <yAxis>
+                        <NumberAxis fx:id="magnituder" side="LEFT" />
+                    </yAxis>
+                </LineChart>
+                <VBox alignment="CENTER" spacing="4.0" />
+            </children>
+        </HBox>
+        <HBox prefHeight="474.0" prefWidth="800.0" spacing="3.0" VBox.vgrow="SOMETIMES" />
+
+    </children>
+</fx:root>
